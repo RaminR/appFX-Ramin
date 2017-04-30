@@ -6,10 +6,10 @@
 
     <persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.rr.model.City</class>
-        <class>com.rr.model.Country</class>
-        <class>com.rr.model.Region</class>
-        <class>com.rr.model.Student</class>
+        <class>ru.esstu.ramin.model.City</class>
+        <class>ru.esstu.ramin.model.Country</class>
+        <class>ru.esstu.ramin.model.Region</class>
+        <class>ru.esstu.ramin.model.Student</class>
 
         <properties>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
