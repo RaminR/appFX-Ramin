@@ -17,6 +17,10 @@ public class Country {
     public Country() {
     }
 
+    public Country(int id) {
+        this.id = id;
+    }
+
     public Country(int id, String name) {
         this.id = id;
         this.name = name;
@@ -71,4 +75,8 @@ public class Country {
         this.regions = regions;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
 }

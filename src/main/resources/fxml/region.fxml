@@ -10,19 +10,19 @@
     <children>
         <ToolBar prefHeight="40.0" prefWidth="200.0">
             <items>
-                <Button mnemonicParsing="false" text="Добавить"/>
-                <Button mnemonicParsing="false" text="Удалить"/>
-                <Button mnemonicParsing="false" text="Обновить"/>
-                <TextField prefHeight="27.0" prefWidth="50.0" promptText="№"/>
-                <TextField prefHeight="27.0" prefWidth="120.0" promptText="Регион"/>
-                <ComboBox prefHeight="27.0" prefWidth="165.0" promptText="Страна"/>
+                <Button mnemonicParsing="false" text="Добавить" fx:id="addBtn" onAction="#add"/>
+                <Button mnemonicParsing="false" text="Удалить" fx:id="deleteBtn" onAction="#delete"/>
+                <Button mnemonicParsing="false" text="Обновить" fx:id="updateBtn" onAction="#update"/>
+                <TextField prefHeight="27.0" prefWidth="50.0" promptText="№" fx:id="idTxt"/>
+                <TextField prefHeight="27.0" prefWidth="120.0" promptText="Регион" fx:id="regionTxt"/>
+                <ComboBox prefHeight="27.0" prefWidth="165.0" promptText="Страна" fx:id="countryCB"/>
             </items>
         </ToolBar>
-        <TableView prefHeight="361.0" prefWidth="600.0">
+        <TableView prefHeight="361.0" prefWidth="600.0" fx:id="regionTb" onMouseClicked="#pick">
             <columns>
-                <TableColumn prefWidth="53.0" text="№"/>
-                <TableColumn prefWidth="195.0" text="Регион"/>
-                <TableColumn prefWidth="351.0" text="Страна"/>
+                <TableColumn prefWidth="53.0" text="№" fx:id="idTc"/>
+                <TableColumn prefWidth="195.0" text="Регион" fx:id="regionTc"/>
+                <TableColumn prefWidth="351.0" text="Страна" fx:id="countryTc"/>
             </columns>
         </TableView>
     </children>
