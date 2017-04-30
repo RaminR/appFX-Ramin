@@ -1,12 +1,11 @@
 package com.rr.controller;
 
 import com.rr.alert.AlertBox;
-import com.rr.dao.impl.service.CityServiceImpl;
-import com.rr.dao.impl.service.CountryServiceImpl;
-import com.rr.dao.impl.service.RegionServiceImpl;
-import com.rr.model.Country;
+import ru.esstu.ramin.dao.impl.service.CountryServiceImpl;
+import ru.esstu.ramin.dao.impl.service.RegionServiceImpl;
+import ru.esstu.ramin.model.Country;
+import ru.esstu.ramin.model.Region;
 
-import com.rr.model.Region;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -15,6 +14,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+
 
 import java.util.List;
 

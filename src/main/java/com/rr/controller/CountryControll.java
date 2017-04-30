@@ -1,8 +1,9 @@
 package com.rr.controller;
 
 import com.rr.alert.AlertBox;
-import com.rr.dao.impl.service.CountryServiceImpl;
-import com.rr.model.Country;
+import ru.esstu.ramin.dao.impl.service.CountryServiceImpl;
+import ru.esstu.ramin.model.Country;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

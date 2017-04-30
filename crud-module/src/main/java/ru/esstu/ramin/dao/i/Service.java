@@ -1,4 +1,4 @@
-package com.rr.dao.i;
+package ru.esstu.ramin.dao.i;
 
 import java.util.List;
 

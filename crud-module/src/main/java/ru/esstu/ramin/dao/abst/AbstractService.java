@@ -1,7 +1,7 @@
-package com.rr.dao.abst;
+package ru.esstu.ramin.dao.abst;
 
-import com.rr.dao.i.Dao;
-import com.rr.dao.i.Service;
+import ru.esstu.ramin.dao.i.Dao;
+import ru.esstu.ramin.dao.i.Service;
 
 import java.util.List;
 

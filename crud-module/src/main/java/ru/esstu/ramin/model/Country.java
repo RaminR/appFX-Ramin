@@ -1,4 +1,4 @@
-package com.rr.model;
+package ru.esstu.ramin.model;
 
 import javax.persistence.*;
 import java.util.Collection;

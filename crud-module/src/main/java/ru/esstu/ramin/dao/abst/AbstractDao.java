@@ -1,8 +1,11 @@
-package com.rr.dao.abst;
+package ru.esstu.ramin.dao.abst;
 
-import com.rr.dao.i.Dao;
+import ru.esstu.ramin.dao.i.Dao;
 
-import javax.persistence.*;
+import javax.persistence.EntityManager;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import java.util.List;
 
 public abstract class AbstractDao<T> implements Dao<T> {
