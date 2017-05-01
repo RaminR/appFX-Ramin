@@ -1,7 +1,6 @@
 package ru.esstu.se.service;
 
-import ru.esstu.se.dao.i.Dao;
-import ru.esstu.se.service.i.Service;
+import ru.esstu.se.dao.Dao;
 
 import java.util.List;
 

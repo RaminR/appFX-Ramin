@@ -1,7 +1,5 @@
 package ru.esstu.se.dao;
 
-import ru.esstu.se.dao.i.Dao;
-
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;

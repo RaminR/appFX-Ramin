@@ -1,4 +1,4 @@
-package ru.esstu.se.service.i;
+package ru.esstu.se.service;
 
 import java.util.List;
 

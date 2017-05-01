@@ -1,4 +1,4 @@
-package ru.esstu.se.dao.i;
+package ru.esstu.se.dao;
 
 import java.util.List;
 
