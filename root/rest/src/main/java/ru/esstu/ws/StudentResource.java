@@ -11,7 +11,7 @@ import java.util.List;
 public class StudentResource {
 
     @GET
-    @Produces(MediaType.APPLICATION_XML)
+    @Produces("application/json")
     public List<Student> getAllStudent() {
         List<Student> students = StudentService.getAll();
         if (students == null) {
@@ -19,4 +19,5 @@ public class StudentResource {
         }
         return students;
     }
+
 }

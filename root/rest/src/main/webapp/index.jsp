@@ -25,7 +25,7 @@
                 <a class="nav-link" href="/rest/api/student">Студент</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/rest/api/student">Страна</a>
+                <a class="nav-link" href="/rest/api/country">Страна</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/rest/api/region">Регион</a>
