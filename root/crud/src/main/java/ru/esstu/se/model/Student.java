@@ -1,6 +1,7 @@
 package ru.esstu.se.model;
 
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.sql.Date;
 
 @Entity
@@ -9,6 +10,7 @@ import java.sql.Date;
         @NamedQuery(name = "StudentDaoImpl.getAll", query = "SELECT s from Student s"),
         @NamedQuery(name = "StudentDaoImpl.find", query = "SELECT s FROM Student s WHERE s.id = :id")
 })
+@XmlRootElement(name = "Student")
 public class Student {
     private String gender;
     private Date birthday;
@@ -101,6 +103,21 @@ public class Student {
         this.firstname = firstname;
         this.surname = surname;
         this.city = city;
+    }
+
+    public Student(String gender, String phone, String address, int id, String firstname, String surname) {
+        this.gender = gender;
+        this.phone = phone;
+        this.address = address;
+        this.id = id;
+        this.firstname = firstname;
+        this.surname = surname;
+    }
+
+    public Student(int id, String firstname, String surname) {
+        this.id = id;
+        this.firstname = firstname;
+        this.surname = surname;
     }
 
     @Override

@@ -1,20 +1,21 @@
 package ru.esstu.se.controllers;
 
-import ru.esstu.se.alert.AlertBox;
-import ru.esstu.se.service.impl.CountryServiceImpl;
-import ru.esstu.se.service.impl.RegionServiceImpl;
-import ru.esstu.se.model.Country;
-import ru.esstu.se.model.Region;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-
+import ru.esstu.se.alert.AlertBox;
+import ru.esstu.se.model.Country;
+import ru.esstu.se.model.Region;
+import ru.esstu.se.service.impl.CountryServiceImpl;
+import ru.esstu.se.service.impl.RegionServiceImpl;
 
 import java.util.List;
 
