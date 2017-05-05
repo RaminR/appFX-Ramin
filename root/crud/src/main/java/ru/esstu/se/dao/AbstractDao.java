@@ -49,4 +49,6 @@ public abstract class AbstractDao<T> implements Dao<T> {
         TypedQuery<T> typedQuery = this.entityManager.createNamedQuery(persistentClass + ".getAll", entity);
         return typedQuery.getResultList();
     }
+
+
 }
